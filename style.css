@@ -1,0 +1,50 @@
+.clicker {
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px solid #cfd0d2;
+    background: #f8f9fb;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    height: 200px;
+}
+
+span.counter {
+    font-size: 48px;
+}
+
+button {
+    border:none;
+    width:33%;
+    height:50px;
+    cursor: pointer;
+    font-size: 25px; 
+}
+
+button > img {
+    width:20px;
+}
+
+button.minus-color{
+    background: #dc3546;
+    border-bottom-right-radius: 5px;
+    
+}
+
+button.plus-color{
+    background: #27a844;
+    border-bottom-left-radius: 5px;
+}
+
+button.refr-color{
+    background: #fec107
+}
